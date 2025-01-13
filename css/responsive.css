@@ -1,0 +1,71 @@
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 10 auto;
+    overflow-x: hidden;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero {
+    padding: 20px;
+    height: 50vh;
+  }
+  .hero p {
+    font-size: 1.2rem;
+  }
+  .hero .btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .sub-title {
+    font-size: 1.2rem;
+  }
+  .gallery-item h3 {
+    font-size: 1.2rem;
+}
+.gallery-item p {
+    font-size: 0.9rem;
+}
+}
+@media (max-width: 576px) {
+  .container{
+    width: 100%;
+    margin: 10 auto;
+    overflow-x: hidden;
+  }
+  .hero {
+    padding: 20px;
+    height: 50vh;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .hero .btn {
+    padding: 2px 4px;
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+  }
+  .container-ft {
+    max-width: 100%;
+      margin: 10 auto;
+      overflow-x: hidden;
+}
+
+}
+
+@media (max-width: 320px) {
+    .container{
+      width: 100%;
+      margin: 10 auto;
+      overflow-x: hidden;
+    }
+  }
